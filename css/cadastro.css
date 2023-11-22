@@ -1,0 +1,30 @@
+#bg{
+    background-color: rgb(82, 177, 255);;
+    height: 500px;
+    width: 40%;
+    border-radius: 5%;
+    margin-left: 50%;
+    margin-top: 10%;
+    transform: translate(-50%);
+}
+
+#logo{
+    width: 30%;
+    height: 90%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.label{
+    color: rgb(0, 0, 0);
+    font-size: 14pt;
+}
+
+#email{
+    width: 45%;
+}
+
+#senha{
+    margin-top: 5%;
+    width: 44%;
+}
