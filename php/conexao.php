@@ -2,7 +2,7 @@
     $host = "localhost";
     $user = "root";
     $password = "";
-    $db = "cadastroms";
+    $db = "usuariosms";
 
     $conexao = new mysqli($host, $user, $password, $db);
     if($conexao->connect_error) {

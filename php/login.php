@@ -1,5 +1,5 @@
 <?php
-    $conexao = mysqli_connect("localhost","root","","cadastroms");
+    $conexao = mysqli_connect("localhost","root","","usuariosms");
 
     if(!$conexao) {
         die("Erro ao conectar ao banco de dados:" . mysqli_connect_error());
@@ -12,9 +12,9 @@
     $resultado = $conexao->query($sql);
 
     if ($resultado->num_rows > 0) {
-        header("location: ../HTML/index.html");
+        echo "Login efetuado";
     } else {
-        echo "E-mail ou senha incorretos.";
+        echo "Nome ou senha incorretos.";
     }
 
     $conexao->close();

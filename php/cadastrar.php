@@ -1,5 +1,5 @@
 <?php
-    $conexao = mysqli_connect("localhost","root","","cadastroms");
+    $conexao = mysqli_connect("localhost","root","","usuariosms");
 
     if ($conexao->connect_error) {
         die("Conexão falhou: " . $conexao->connect_error);
