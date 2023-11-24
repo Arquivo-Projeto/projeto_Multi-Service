@@ -12,7 +12,7 @@
     $resultado = $conexao->query($sql);
 
     if ($resultado->num_rows > 0) {
-        echo "Login efetuado";
+        header('location: ../HTML/loginEFE.html');
     } else {
         echo "Nome ou senha incorretos.";
     }
