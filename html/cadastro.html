@@ -39,11 +39,26 @@
             <div class="row">
                 <div class="col">
                     <div class="d-grid gap-2 col-6 mx-auto">
-                        <input type="submit" value="Cadastrar" class="btn btn-outline-light btn-lg" style="margin-left: 50%; margin-top: 25%; transform: translate(-50%);">
+                        <input type="submit" value="Cadastrar" class="btn btn-outline-light btn-lg" style="margin-left: 50%; margin-top: 25%; transform: translate(-50%);" onclick="cadastrarUsuario();">
                     </div>
                 </div>
             </div>
         </form>
     </div>
+
+
+    <script>
+        function cadastrarUsuario() {
+      // Obtenha os valores do formulário de cadastro
+      var nome = document.getElementById('nome').value;
+      var email = document.getElementById('email').value;
+      var senha = document.getElementById('senha').value;
+
+      if (nome == "" || email == "" || senha == "") {
+        alert('Preencha todos os campos.');
+        return;
+      }
+    }
+    </script>
 </body>
 </html>
