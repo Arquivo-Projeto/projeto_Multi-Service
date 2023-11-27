@@ -19,14 +19,14 @@
                 <div class="row">
                     <div class="col">
                         <label for="Nome" class="label">Nome:</label>
-                        <input type="text" name="nome" id="nome">
+                        <input type="text" name="nome" id="nome" required>
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col">
                         <label for="senha" class="label">Senha:</label>
-                        <input type="password" name="senha" id="senha">
+                        <input type="password" name="senha" id="senha" required>
                     </div>
                 </div>
                 <br>
@@ -39,10 +39,23 @@
                     </div>
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <input type="submit" value="Login" class="btn btn-outline-light btn-lg" onclick="window.location= 'home.html'" style="margin-left: 50%; margin-top: 30%; transform: translate(-50%);">
+                    <input type="submit" value="Login" class="btn btn-outline-light btn-lg" onclick="logarUsuario();" style="margin-left: 50%; margin-top: 30%; transform: translate(-50%);">
                 </div>
             </form>
         </div>
     </div>
+
+    <script>
+        function logarUsuario() {
+            // Obtenha os valores do formulário de cadastro
+            var nome = document.getElementById('nome').value;
+            var senha = document.getElementById('senha').value;
+
+            if (nome == "" || senha == "") {
+                alert('Nome ou senha incorretos');
+                return;
+            }
+        }
+    </script>
 </body>
 </html>

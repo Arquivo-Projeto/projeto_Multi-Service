@@ -13,8 +13,6 @@
 
     if ($resultado->num_rows > 0) {
         header('location: ../HTML/loginEFE.html');
-    } else {
-        echo "Nome ou senha incorretos.";
     }
 
     $conexao->close();
