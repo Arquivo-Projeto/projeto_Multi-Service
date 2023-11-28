@@ -48,10 +48,36 @@ a.navbar {
     transform: translate(-50%);
 }
 
-#img_carrosel{
-    height: 2000px;
-    width: 600px;
-    
-    
+#carrossel{
+    width: 65%;
+    height: 300px;
+}
+
+<<<<<<< HEAD
+#img_carrossel{
+    width: 800px;
+    height: 300px;
+    padding-top: 1%;
+}
+
+#indicadores{
+    color:black;
 
 }
+=======
+}
+
+#rowSUS {
+    background-color: rgb(110, 126, 218);
+    border-radius: 10%; 
+    text-align: center; 
+    align-items: center;
+    height: 400px;
+    display: flex;
+}
+
+#conecteSUS {
+    text-align: justify;
+    font-size: 20px;
+}
+>>>>>>> 8d9d162debc313f28c02d66550f65e893d7eefd5
