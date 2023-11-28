@@ -13,6 +13,8 @@
 
     if ($resultado->num_rows > 0) {
         header('location: ../HTML/loginEFE.html');
+    } else{
+        header('location: ../html/incorretos.html');
     }
 
     $conexao->close();
