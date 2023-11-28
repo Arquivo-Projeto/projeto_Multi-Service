@@ -43,3 +43,10 @@ a.navbar {
     margin-left: 50%;
     transform: translate(-50%);
 }
+
+.img_1{
+    height: 100%;
+    width: 50%;
+    margin-left: 50%;
+    margin-right: 50%;
+}
