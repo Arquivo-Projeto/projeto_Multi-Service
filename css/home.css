@@ -5,6 +5,10 @@ header {
     background-color: rgb(82, 177, 255);
 }
 
+h1{
+    text-align: center;
+}
+
 h2{
     color: white;
 }
@@ -42,11 +46,4 @@ a.navbar {
     padding: 2%;
     margin-left: 50%;
     transform: translate(-50%);
-}
-
-.img_1{
-    height: 100%;
-    width: 50%;
-    margin-left: 50%;
-    margin-right: 50%;
 }
