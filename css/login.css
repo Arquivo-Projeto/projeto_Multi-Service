@@ -1,7 +1,9 @@
 #bg{
     background-color: rgb(82, 177, 255);
-    height: 500px;
-    width: 40%;
+    min-height: 300px;
+    max-height: 600px;
+    min-width: 300px;
+    max-width: 600px;
     border-radius: 5%;
     margin-left: 50%;
     margin-top: 10%;
