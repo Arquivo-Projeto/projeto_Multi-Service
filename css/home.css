@@ -115,9 +115,9 @@ a.navbar {
 }
 
 #energia {
-    background: linear-gradient(to right, green, rgb(162, 247, 162)); 
+    background: linear-gradient(to right, yellow, rgb(223, 223, 188)); 
     border-radius: 10cap;
-    border: 3px solid green;
+    border: 3px solid yellow;
 }
 
 #rowEnergia {
