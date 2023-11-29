@@ -67,9 +67,9 @@ a.navbar {
 }
 
 #saude {
-    background: linear-gradient(to right, blue, rgb(159, 159, 236)); 
+    background: linear-gradient(to right, rgb(45, 192, 32), rgb(0, 145, 255)); 
     border-radius: 10cap;
-    border: 3px solid blue;
+    border: 3px solid  rgb(45, 192, 32);
 }
 
 #energia {
@@ -85,9 +85,9 @@ a.navbar {
 }
 
 #detran{
-    background: linear-gradient(to right, rgb(255, 0, 0), rgb(242, 255, 0));
+    background: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 255, 255));
     border-radius: 10cap;
-    border: 3px solid rgb(255, 0, 0);
+    border: 3px solid rgb(0, 0, 255);
 }
 
 .linha{
