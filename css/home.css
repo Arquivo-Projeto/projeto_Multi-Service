@@ -66,7 +66,7 @@ a.navbar {
 
 
 #rowSUS {
-    background-color: rgb(110, 126, 218);
+    background-color: white;
     border-radius: 10%; 
     text-align: center; 
     align-items: center;
@@ -77,4 +77,26 @@ a.navbar {
 #conecteSUS {
     text-align: justify;
     font-size: 20px;
+    margin-left: 5%;
+}
+#sus {
+    height: 300px; 
+    border-radius: 20%;
+    opacity: 1.0;
+    transition: background-color 0.3s;
+}
+
+#sus :hover {
+    opacity: 0.5;
+}
+
+#saude {
+    background: linear-gradient(to right, blue, rgb(159, 159, 236)); 
+    border-radius: 10cap;
+    border: 3px solid blue;
+}
+
+hr {
+    height: 500px;
+    border: 5px solid;
 }
