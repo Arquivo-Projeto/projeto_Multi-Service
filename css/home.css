@@ -43,11 +43,8 @@ a.navbar {
     color: rgb(255, 255, 255);
     font-weight: 150%;
     font-family:Arial, Helvetica, sans-serif;
-    margin-left: 5%;
-    margin-right: 5%;
     padding: 2%;
     margin-left: 50%;
-    transform: translate(-50%);
 }
 
 #carrossel{
@@ -63,29 +60,6 @@ a.navbar {
 
 #indicadores{
     color:black;
-
-}
-
-
-#rowSUS {
-    background-color: white;
-    border-radius: 10%; 
-    text-align: center; 
-    align-items: center;
-    height: 400px;
-    display: flex;
-}
-
-#conecteSUS {
-    text-align: justify;
-    font-size: 20px;
-    margin-left: 5%;
-}
-#sus {
-    height: 300px; 
-    border-radius: 20%;
-    opacity: 1.0;
-    transition: background-color 0.3s;
 }
 
 .hover :hover {
@@ -98,41 +72,10 @@ a.navbar {
     border: 3px solid blue;
 }
 
-#rowMinisterioSaude{
-    background-color: white;
-    border-radius: 10%; 
-    text-align: center; 
-    align-items: center;
-    height: 400px;
-    display: flex;
-    margin-top: -5%;
-}
-
-#ministerioSaude{
-    text-align: justify;
-    font-size: 20px;
-    margin-left: 5%;
-}
-
 #energia {
-    background: linear-gradient(to right, yellow, rgb(223, 223, 188)); 
+    background: linear-gradient(to right, yellow,  rgb(223, 223, 188)); 
     border-radius: 10cap;
     border: 3px solid yellow;
-}
-
-#rowEnergia {
-    background-color: white;
-    border-radius: 10%; 
-    text-align: center; 
-    align-items: center;
-    height: 400px;
-    display: flex;
-}
-
-#neoEnergia {
-    text-align: justify;
-    font-size: 20px;
-    margin-left: 5%;
 }
 
 #agua{
@@ -141,16 +84,22 @@ a.navbar {
     border: 3px solid blue;
 }
 
-#rowcompesa{
+#detran{
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(242, 255, 0));
+    border-radius: 10cap;
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.linha{
     background-color: white;
     border-radius: 10%; 
     text-align: center; 
     align-items: center;
     height: 400px;
-    display: flex;
+    display: flex;   
 }
 
-#compesa{
+.coluna{
     text-align: justify;
     font-size: 20px;
     margin-left: 5%;
