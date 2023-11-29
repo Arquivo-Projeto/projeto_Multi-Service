@@ -104,3 +104,22 @@ a.navbar {
     font-size: 20px;
     margin-left: 5%;
 }
+
+#btnTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#btnTop:hover {
+    background-color: #0056b3;
+}
